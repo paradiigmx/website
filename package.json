@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npm i typescript @types/react @types/react-dom @types/node"
+    "vercel-build": "npm run ensure-ts && next build",
+    "ensure-ts": "npm i --no-fund --no-audit typescript@^5.4.0 @types/react@^18.3.0 @types/react-dom@^18.3.0 @types/node@^20.12.0"
   },
   "dependencies": {
     "@apollo/client": "^3.10.0",
