@@ -1,0 +1,11 @@
+Copied Vite components into Next.js /components:
+- Header.tsx
+- AnimatedBackground.tsx
+- Hero.tsx
+- Section.tsx
+- ProductsSection.tsx
+- ServicesSection.tsx
+- FeaturesSection.tsx
+- Footer.tsx
+- Card.tsx
+- icons.tsx
