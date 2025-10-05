@@ -9,7 +9,8 @@ interface CardProps {
 }
 
 export const Card: React.FC<CardProps> = ({ children, index, variant = 'primary' }) => {
-  const [ref, isInView] = useInView({ threshold: 0.1, triggerOnce: true });
+  const { ref, inView: isInView } = useInView({ threshold: 0.1, triggerOnce: true });
+
 
   const getVariantClasses = () => {
     switch (variant) {
