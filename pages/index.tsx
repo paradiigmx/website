@@ -13,19 +13,9 @@ import { Footer } from '../components/Footer';
 
 export default function Home() {
   return (
-    <main>
-      <Head>
-        <title>Paradiigm</title>
-        <meta name="description" content="Paradiigm — Next.js + WPGraphQL headless site with custom React UI" />
-      </Head>
-      <div className="min-h-screen bg-black text-white">
-        <Header />
-        <Hero />
-        <FeaturesSection />
-        <ProductsSection />
-        <ServicesSection />
-        <Footer />
-      </div>
+    <main style={{ padding: 40 }}>
+      <h1>Welcome to Paradiigm</h1>
+      <p>Your site deployed successfully on Vercel!</p>
     </main>
   );
 }
